@@ -1,5 +1,7 @@
 # babel-plugin-class-properties-7to6
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/motiz88/babel-plugin-class-properties-7to6.svg)](https://greenkeeper.io/)
+
 [es7.classProperties](https://gist.github.com/jeffmo/054df782c05639da2adb) without [es6.classes](https://babeljs.io/docs/learn-es2015/#classes).
 
 **Note**: This plugin doesn't actually transform properties correctly at the moment. Instead, it just _removes_ class properties wherever they're encountered. This obviously breaks the code in the general case, but can still be helpful to apply before some tools (e.g. [JSDoc](https://github.com/jsdoc3/jsdoc)) that rely on pre-ES7 parsers.
